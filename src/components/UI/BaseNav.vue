@@ -17,7 +17,7 @@
           :class="{ active: pages.about }"
           href="#about"
           @click="clicked('about')"
-          >ABOUT</a
+          >BIO</a
         >
         <a
           class="btn"
@@ -38,7 +38,7 @@
           :class="{ active: pages.contact }"
           href="#contact"
           @click="clicked('contact')"
-          >CONTACT</a
+          >ELEVATOR PITCH</a
         >
       </div>
     </div>

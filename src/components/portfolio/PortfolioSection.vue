@@ -2,19 +2,21 @@
     <h2 class="heading" id="portfolio"> My <span>Portfolio</span></h2>
 <div class="portfolio">
     <div class="box-container">
-        
-        <div class="box" v-for="project in portfolio" :key="project.title">
-            <img :src="project.img" alt="">
-            <div class="content">
+        <!-- <div class="box"> -->
+            <!-- <img :src="project.img" alt=""> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/87Skpw5SL7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- <div class="content">
                 <h3>{{project.title}}</h3>
                 <span class="highlight">{{project.description}}</span><br>
                 <span class="span">{{project.techStack.toString()}}</span>
                 <a v-show="project.repo" :href="project.repo"><i class="fab fa-github"></i></a>
                 <a v-show="project.link" :href="project.link" ><i class="fas fa-link"></i></a>
-            </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
 
     </div>
+    <a class="btn cv" href="/slide/Slide Deck.pdf" type="button">Slide Deck</a>
+
 </div>
 
 </template>
